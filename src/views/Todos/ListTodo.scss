@@ -1,13 +1,12 @@
 .list-todo-container{
-    .add-todo-form{
-        input{
-            height: 20px;
-            width: 300px;
-            border-radius: 3px;
-            border: none;
-            margin-right: 10px;
-        }
+    input{
+        height: 20px;
+        width: 300px;
+        border-radius: 3px;
+        border: none;
+        margin-right: 10px;
     }
+
     .list-todo-content{
         max-width: 600px;
         margin: 20px auto;
@@ -21,6 +20,13 @@
             .todo-action{
                 button{
                     margin-left: 10px;
+                }
+            }
+
+            .todo-title{
+                input{
+                    margin-left: 5px;
+                    width: 200px;
                 }
             }
         }
