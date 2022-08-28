@@ -1,0 +1,35 @@
+.list-todo-container{
+    .add-todo-form{
+        input{
+            height: 20px;
+            width: 300px;
+            border-radius: 3px;
+            border: none;
+            margin-right: 10px;
+        }
+    }
+    .list-todo-content{
+        max-width: 600px;
+        margin: 20px auto;
+
+        .todo-item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: solid 1px #fff;
+
+            .todo-action{
+                button{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    button{
+        cursor: pointer;
+        height: 25px;
+        width: 60px;
+        border: none;
+        border-radius: 2px;
+    }
+}
