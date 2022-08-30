@@ -1,0 +1,11 @@
+.list-users-content{
+    .item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 1px;
+        max-width: 600px;
+        margin: 0 auto;
+        max-height: 50px;
+    }
+}

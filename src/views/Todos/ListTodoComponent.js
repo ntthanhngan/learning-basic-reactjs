@@ -19,7 +19,7 @@ class ListTodoComponent extends React.Component {
         })
         toast.success('Adding successful!')
     }
-    deleteTodo = (todo) => {
+    handleDeleteTodo = (todo) => {
         let currentTodo = this.state.listTodos
         currentTodo = currentTodo.filter(item => item.id !== todo.id)
         this.setState({
@@ -44,6 +44,7 @@ class ListTodoComponent extends React.Component {
                 listTodos: listTodosCopy,
                 editTodo: ''
             })
+            toast.success('Editting successful!')
             return
         }
         //edit
