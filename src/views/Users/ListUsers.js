@@ -15,7 +15,7 @@ class ListUsers extends React.Component {
             listUsers: res && res.data && res.data.data ? res.data.data : []
         })
 
-        console.log('>>> check res', res.data.data)
+        // console.log('>>> check res', res.data.data)
     }
     handleViewUserDetail = (user) => {
         this.props.history.push(`user/${user.id}`)
